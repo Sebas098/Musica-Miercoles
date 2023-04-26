@@ -5,7 +5,7 @@ export function Menu() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-           Incubus
+           Linkin Park
           </Link>
           <button
             className="navbar-toggler"
@@ -31,7 +31,7 @@ export function Menu() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" to="./tienda">
                   Tienda
                 </a>
               </li>

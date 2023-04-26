@@ -1,17 +1,51 @@
-export function History(){
-
-    return(
-        <>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <h4>Historia de la banda</h4>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/musicajjg-e86d3.appspot.com/o/foto4.jpg?alt=media&token=b39aa4de-45f9-4ced-9546-725f78c48595" alt="foto" className="img-fluid w-100"/>
-                        <p>En el año 2001, Incubus decide dirigirse a un estudio en Malibu (California, Estados Unidos), para comenzar la grabación de un nuevo disco. Paralelamente, Make Yourself les sigue otorgando conquistas en la industria musical, llegando en julio a doble platino (2.000.000 de copias). La banda decide salir de gira con Hoobastank y lanzar el primer sencillo “Wish you were here” de su nuevo disco Morning View (el nombre se lo otorgan debido a que la calle en donde vivieron mientras producían el disco se llamaba así), llegando a los primeros puestos en los charts y además lanzando el video en MTV. El disco, es lanzado el 23 de octubre de 2001 y posteriormente lanzan el sencillo “Nice to know you” que recibe una gran acogida por parte de los fanes.El 11 de diciembre de 2001 producen su primer DVD oficial, When Incubus Attacks vol. 2 que contiene videoclips de sus grandes éxitos de los discos S.C.I.E.N.C.E. y Make Yourself y un acústico. El 28 de mayo de 2002 lanzan su 2.º DVD Morning View Sessions que es un extracto de sus más grandes éxitos grabado en su mansión en Malibu, California, además de estar paralelamente filmando para MTV videos como “Diario de Incubus” o “Cribs” en donde muestran su hogar.Seguido de esto, su bajista Dirk Lance (Alex Katunich) decide partir de la banda debido a “Diferencias musicales”, entrando en su reemplazo Ben Kenney, quien tiene un gran currículum que le llama la atención a Boyd y el resto, en donde destacan principalmente su participación en: The Roots, Faith Hill, Bubba Sparxxx, Blackalicious, Super Grub (actualmente Division Group). Además de esto, Ben Kenney, Mike Einziger y José Pasillas trabajan en el proyecto paralelo Time Lapse Consortium al cual lo denominan simplemente un “Show” o terapia de relajo.Además de esto en este periodo, crean “The Make Yourself Foundation”, organización sin fines de lucro que junta fondos para ir en ayuda de los más necesitados tanto en Estados Unidos y el mundo, financiándola a través de la donación de ingresos concebidos por tours, subastas en línea, pases para conocer a la banda, entre otras actividades</p>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-
+export function History() {
+  return (
+    <>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h4>Historia de la banda</h4>
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/musicosjuan.appspot.com/o/link3.jpg?alt=media&token=56006a0c-dcf8-4c61-9106-32fbe325d8d7"
+              alt="foto"
+              className="img-fluid w-100"
+            />
+            <p>
+              Los primeros años de la banda se remontan a un pequeño estudio del
+              vocalista Mike Shinoda donde se reunían él, un amigo y compañero
+              de colegio Agoura High School, Brad Delson, en la que grabaron un
+              primer material a modo garage en 1995. Los dos estaban en el mismo
+              instituto, donde conocieron a Rob Bourdon, (actual baterista de la
+              banda). Más adelante, cuando tomaron el tema de la banda de forma
+              «seria», Shinoda contactó con Joe Hahn que estudiaba en el Art
+              Center College de Pasadena. La agrupación se formó inicialmente
+              en Los Ángeles y comenzó en 1996 con una mezcla de géneros como nu
+              metal, hardcore y hip hop. Al graduarse del instituto, los
+              jóvenes californianos Mike Shinoda, Rob Bourdon y Brad Delson
+              tomaron mayor participación en el grupo, y poco después, se unió
+              Joe Hahn y Dave Farrell. Conformada con cinco integrantes
+              buscaron a otro más, invitaron a Mark Wakefield como vocalista
+              principal; con un presupuesto limitado, la agrupación grabó varias
+              canciones en un estudio improvisado que culminó en un álbum demo,
+              llamado Xero.Sin embargo, no tuvo éxito y les impidió obtener
+              un contrato; a la vez, Wakefield al sentirse frustrado, decidió
+              abandonar la formación para proseguir con sus estudios.
+              Debido a la marcha de Wakefield del proyecto, Shinoda se vio en la
+              necesidad de contratar un nuevo vocalista, de entre los
+              solicitantes destacó Chester Bennington, un joven originario de
+              Phoenix, Arizona, el cual formó parte del grupo Grey Daze hasta
+              1998, y en la que adquirió su experiencia con la grabaciones de
+              discos desde los 16 años.41​ Shinoda le hizo llegar algunas
+              canciones interpretadas por el vocalista anterior y versiones
+              instrumentales, para que grabara su voz sobre las últimas. Una vez
+              finalizado el trabajo, Bennington contactó a Shinoda vía
+              telefónica para mostrarle su propia grabación, los integrantes
+              estuvieron sorprendidos por su voz, por lo que decidieron
+              convocarlo a una reunión inmediatamente
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
