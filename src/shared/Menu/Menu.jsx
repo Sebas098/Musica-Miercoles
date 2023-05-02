@@ -31,9 +31,9 @@ export function Menu() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" to="./tienda">
+              <Link className="nav-link" to="/Shop">
                   Tienda
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link">
