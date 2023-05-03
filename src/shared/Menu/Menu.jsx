@@ -36,9 +36,9 @@ export function Menu() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link">
-                  Musica
-                </a>
+              <Link className="nav-link" to="/Fans">
+                  Fans
+                </Link>
               </li>
             </ul>
           </div>
