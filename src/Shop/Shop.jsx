@@ -170,7 +170,7 @@ return(
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://lh3.googleusercontent.com/CF0c2_01LQNhsepMUhy7QO31wQrO2i5vOIl2VkY47CFVZnxnor8vnOWV9iG4x-oqom4cwuqJAVidP8rk=w2880-h1200-p-l90-rj" class="d-block w-100" alt="..."/>
+      <img src="https://img.asmedia.epimg.net/resizer/lJ-BnbJ02Un5pNauDZVHqSPEx60=/644x362/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/2RKPRSYHNJO2DMK2QQAUP3TLGA.jpg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
        
       </div>

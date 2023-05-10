@@ -1,3 +1,4 @@
+import "../Members/Members.css";
 export function Members() {
   let integrantes = [
     {
@@ -66,6 +67,14 @@ export function Members() {
       },
   ];
 
+  function quehagocuandosedeelevento(evento){
+    (evento.target.classList.add("blancoYnegro"))
+  }
+
+  function quehagocuandosedeelotroevento(evento){
+    (evento.target.classList.remove("blancoYnegro"))
+  }
+
   return (
     <>
      <div className="row row-cols-1 row-cols-md-3 g-3">
@@ -76,7 +85,7 @@ export function Members() {
                         <div className="col">
                             <div className="card h-100 shadow">
                                 <h3 className="text-center fw-bold">{integrante.nombre}</h3>
-                                <img src={integrante.foto} alt="foto" className="img-fluid w-100" />
+                                <img src={integrante.foto} alt="foto" className="img-fluid w-100" onMouseOver={quehagocuandosedeelevento} onMouseLeave={quehagocuandosedeelotroevento} on/>
                                 <h3 className="text-center fw-bold">{integrante.nacimiento}</h3>
                                 <h4 className="text-center fw-bold">Rol:{integrante.rol}</h4>
                              

@@ -40,6 +40,11 @@ export function Menu() {
                   Fans
                 </Link>
               </li>
+              <li className="nav-item">
+              <Link className="nav-link" to="/hooks">
+                  Hook
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
