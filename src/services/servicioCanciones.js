@@ -1,18 +1,18 @@
 export async function consultarCanciones() {
-  //RESETA PARA CONSUMIR APIS CON JS
+  //RECETA PARA CONSUMIR APIS CON JS
 
   //1. PA' ONDE VAS OME
   //URL+EP DEL SERVICIO
 
-  const IDARTISTA = "4q3ewBCX7sLwd24euuV69X ";
-  const URI = `https://api.spotify.com/v1/artists/4q3ewBCX7sLwd24euuV69X/top-tracks?market=us`
-  const TOKEN ="Bearer BQBKJh1-jxAPMFUGMqK0VmpR7TJujtEkMpHeBHmRRduNJNpTjwRVUEL2zFilOtaMi31HTr9hlVIitkdcfEmi5MTdUA9bF1w0aOlGhEGrG2rbW3G5RCM  ";
+  const IDARTISTA ="6XyY86QOPPrYVGvF9ch6wz"
+  const URI=`https://api.spotify.com/v1/artists/${IDARTISTA}/top-tracks?market=us`
+  const TOKEN ="Bearer BQCMHgTc9qCMxOP4elxWA4IQhNgGGf1ezGNX3yLB9g0rBYxAG_sndXP9gKZrSKd-ue9Yiyb8_8DoiYZUAuZvnvXYofhMZFINEXw5pFtA_2StvH7dcc8"
 
   //2. QUE VAS A HACER ALLA OME...
   //CONFIGURO LA PETICION
   let peticion = { 
     method: "GET", 
-    headers: { Authorization: TOKEN },
+    headers: { "Authorization": TOKEN },
  
 }
 
@@ -20,6 +20,5 @@ export async function consultarCanciones() {
 //utilice la promesa FETCH para ir al back y consumir el API
 let respuesta=await fetch(URI,peticion)
 let canciones=await respuesta.json()
-console.log(canciones)
 return canciones
 }
