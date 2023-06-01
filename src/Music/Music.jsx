@@ -5,7 +5,7 @@ export function Music() {
   const [estacargando, setEstacargando] = useState(true);
   useEffect(function () {
    consultarCanciones().then(function (respuesta) {
-        console.log(respuesta)
+        
       setCanciones(respuesta.tracks);
       setEstacargando(false);
     });
